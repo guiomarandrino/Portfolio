@@ -1,0 +1,96 @@
+:root {
+  --secondary-color: #c0d8c0;
+  --light-green: #bccc9a;
+  --dark-green: #557c55;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --link-border: 2px solid;
+}
+
+body {
+  background-color: #c7cfb7 !important;
+}
+
+h2 {
+  padding: 60px 0px 0px 0px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col-md-6 {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #f7f7e8;
+}
+
+.row {
+  padding: 15px;
+}
+
+.about-link {
+  color: white;
+  padding: 15px;
+  background-color: #66806a;
+  margin: 10px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  color: white;
+  padding: 15px;
+  background-color: #66806a;
+  margin: 10px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.index img {
+  width: 450px;
+}
+
+.heading {
+  padding: 60px 0px 0px 0px;
+}
+
+.about {
+  display: flex;
+}
+
+.about-paragraph {
+  padding: 15px 20px;
+}
+
+.about-pic img {
+  width: 200px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.email {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
