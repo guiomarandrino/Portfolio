@@ -1,17 +1,41 @@
 :root {
   --secondary-color: #c0d8c0;
   --light-green: #bccc9a;
-  --dark-green: #557c55;
+  --dark-green: #66806a;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --link-border: 2px solid;
+  --title-font: "Abril Fatface", cursive;
+  --all-over-font: "Roboto Slab", serif;
+}
+
+.bg-branding {
+  background-color: var(--dark-green);
+}
+.navbar-brand {
+  font-family: var(--title-font);
+}
+.nav-item {
+  font-family: var(--all-over-font);
 }
 
 body {
   background-color: #c7cfb7 !important;
 }
 
-h2 {
-  padding: 60px 0px 0px 0px;
+h1 {
+  font-family: var(--all-over-font);
+  font-size: 50px !important;
+  padding: 50px 20px 20px 20px;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 10px 20px 40px 20px;
+  font-family: var(--all-over-font);
+}
+
+p {
+  font-family: var(--all-over-font);
 }
 
 .d-flex {
@@ -24,6 +48,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: var(--all-over-font);
 }
 
 .col-md-6 {
@@ -37,18 +62,18 @@ h2 {
 }
 
 .about-link {
-  color: white;
+  color: black;
   padding: 15px;
-  background-color: #66806a;
+  border: solid 2px var(--dark-green);
   margin: 10px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
 
 .contact-link {
-  color: white;
+  color: black;
   padding: 15px;
-  background-color: #66806a;
+  border: solid 2px var(--dark-green);
   margin: 10px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
