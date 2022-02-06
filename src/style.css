@@ -1,7 +1,5 @@
 :root {
-  --secondary-color: #c0d8c0;
-  --light-green: #bccc9a;
-  --dark-green: #66806a;
+  --accent-color: #ff6f3c;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --link-border: 2px solid;
   --title-font: "Abril Fatface", cursive;
@@ -9,17 +7,13 @@
 }
 
 .bg-branding {
-  background-color: var(--dark-green);
+  background-color: var(--accent-color);
 }
 .navbar-brand {
   font-family: var(--title-font);
 }
 .nav-item {
   font-family: var(--all-over-font);
-}
-
-body {
-  background-color: #c7cfb7 !important;
 }
 
 h1 {
@@ -32,6 +26,20 @@ h1 {
 h3 {
   padding: 10px 20px 40px 20px;
   font-family: var(--all-over-font);
+}
+
+.profession-1 {
+  color: #39ff14;
+}
+
+.profession-2 {
+  color: #ff008e;
+}
+
+.hero {
+  background-color: #fcffc1;
+  border-radius: 10px;
+  margin: 30px;
 }
 
 p {
@@ -64,7 +72,7 @@ p {
 .about-link {
   color: black;
   padding: 15px;
-  border: solid 2px var(--dark-green);
+  border: solid 2px var(--accent-color);
   margin: 10px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
@@ -73,7 +81,7 @@ p {
 .contact-link {
   color: black;
   padding: 15px;
-  border: solid 2px var(--dark-green);
+  border: solid 2px var(--accent-color);
   margin: 10px;
   text-decoration: none;
   box-shadow: var(--box-shadow);
