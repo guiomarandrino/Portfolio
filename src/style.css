@@ -103,27 +103,28 @@ p {
   padding: 15px 20px;
 }
 
-.about-pic img {
-  width: 200px;
+.row {
+  background-color: #fcffc1;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  border: solid 1px var(--accent-color);
 }
 
-.contact {
+.app-pic {
+  width: 400px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.contact-section {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  font-size: 30px;
+.app-name {
+  font-family: var(--all-over-font);
+  font-size: 20px;
+  padding: 10px 0px;
   font-weight: bold;
 }
 
-.email {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  font-size: 20px;
-  text-decoration: none;
+.launch {
+  color: var(--accent-color);
+  margin: 20px 0px;
 }
