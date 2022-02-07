@@ -1,9 +1,19 @@
 :root {
   --accent-color: #ff6f3c;
+  --background-color: #fffdde;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --link-border: 2px solid;
-  --title-font: "Abril Fatface", cursive;
+  --title-font: "Playfair Display", serif;
   --all-over-font: "Roboto Slab", serif;
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 50px;
+  }
 }
 
 .bg-branding {
@@ -17,14 +27,12 @@
 }
 
 h1 {
-  font-family: var(--all-over-font);
+  font-family: var(--title-font);
   font-size: 50px !important;
-  padding: 50px 20px 20px 20px;
-  font-weight: bold;
+  padding: 20px;
 }
 
 h3 {
-  padding: 10px 20px 40px 20px;
   font-family: var(--all-over-font);
 }
 
@@ -37,8 +45,7 @@ h3 {
 }
 
 .hero {
-  background-color: #fcffc1;
-  border-radius: 10px;
+  border: black solid 8px;
   margin: 30px;
 }
 
@@ -62,14 +69,14 @@ p {
 .col-md-6 {
   padding: 25px;
   border-radius: 10px;
-  background-color: #f7f7e8;
+  background-color: var(--background-color);
 }
 
 .row {
   padding: 15px;
 }
 
-.about-link {
+.index-link {
   color: black;
   padding: 15px;
   border: solid 2px var(--accent-color);
@@ -78,13 +85,9 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-.contact-link {
-  color: black;
-  padding: 15px;
-  border: solid 2px var(--accent-color);
-  margin: 10px;
-  text-decoration: none;
-  box-shadow: var(--box-shadow);
+.index-link:hover {
+  background-color: var(--accent-color);
+  color: white;
 }
 
 .index img {
@@ -104,7 +107,7 @@ p {
 }
 
 .row {
-  background-color: #fcffc1;
+  background-color: var(--background-color);
   padding: 30px;
   margin: 30px;
   border-radius: 10px;
@@ -125,6 +128,8 @@ p {
 }
 
 .launch {
-  color: var(--accent-color);
+  color: #39ff14;
   margin: 20px 0px;
+  text-decoration: none;
+  font-weight: bold;
 }
