@@ -9,10 +9,16 @@
 
 @media (max-width: 576px) {
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
+
   h1 {
     font-size: 50px;
+  }
+
+  .about-section {
+    margin: 0;
+    text-align: center;
   }
 }
 
@@ -53,7 +59,7 @@ p {
   font-family: var(--all-over-font);
 }
 
-.d-flex {
+.hero .d-flex {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -64,12 +70,6 @@ p {
   flex-direction: row;
   justify-content: center;
   font-family: var(--all-over-font);
-}
-
-.col-md-6 {
-  padding: 25px;
-  border-radius: 10px;
-  background-color: var(--background-color);
 }
 
 .row {
@@ -94,19 +94,42 @@ p {
   width: 450px;
 }
 
-.heading {
-  padding: 60px 0px 0px 0px;
+.col-md-6 {
+  padding: 0px 40px !important;
 }
 
-.about {
-  display: flex;
+.description {
+  text-decoration: underline #ff008e;
 }
-
 .about-paragraph {
-  padding: 15px 20px;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.row {
+#headshot {
+  width: 350px;
+  border: black solid 8px;
+  padding: 15px;
+  margin: 70px 0px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: left !important;
+  font-family: var(--all-over-font);
+  font-size: 20px;
+  padding: 20px;
+  margin: 0px 140px;
+}
+
+.languages-heading {
+  font-size: 30px;
+  padding: 10px 0px 20px 0px;
+}
+
+.project {
   background-color: var(--background-color);
   padding: 30px;
   margin: 30px;

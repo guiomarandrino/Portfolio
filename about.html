@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Professional information and coding projects." />
+    <meta
+      name="description"
+      content="Professional information and coding projects."
+    />
     <title>About</title>
     <link rel="stylesheet" href="src/style.css" />
     <link
@@ -19,10 +22,18 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Abril+Fatface&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Abril+Fatface&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a7c4d416c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-branding">
       <div class="container-fluid">
@@ -59,18 +70,43 @@
       </div>
     </nav>
 
-    <h1 class="heading text-center">About me</h1>
-    <h3 class="text-center">Front-end developer and translator based in Madrid, Spain</h3>
-    <div class="about">
-      <div class="about-paragraph text-center"></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
+    <div class="container">
+      <div class="row about-section mt-5">
+        <div class="col-md-6">
+          <h1 class="text-center">Hi, I'm Guiomar!</h1>
+          <h3 class="description mb-5 text-center">
+            Front-end developer and translator based in Madrid, Spain
+          </h3>
+
+          <div class="about-paragraph">
+            <p>
+              The first thing you need to know about me is that
+              <strong>I love languages</strong>: programming and natural.
+            </p>
+            <p>
+              I studied Translation and Interpreting at university and in 2020 I
+              focused on biomedical translation through a MSc. I began my coding
+              journey in 2021 and haven't stopped ever since! I fell in love
+              with the creative aspect of coding and I hope to keep learning and
+              improving my skills.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="images/IMG_1464.jpg"
+            alt="profile picture"
+            class="img-fluid text-center"
+            id="headshot"
+          />
+        </div>
       </div>
     </div>
-  
+    <div class="languages d-flex">
+      <div class="languages-heading">Languages</div>
+      <div>Spanish <i class="fa-solid fa-star"></i></div>
+      <div>English</div>
+      <div>German<i class="fa-solid fa-star-half-stroke"></i></div>
+    </div>
   </body>
 </html>
