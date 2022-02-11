@@ -1,6 +1,8 @@
 :root {
   --accent-color: #ff6f3c;
   --background-color: #fffdde;
+  --neon-pink: #ff008e;
+  --neon-green: #39ff14;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --link-border: 2px solid;
   --title-font: "Playfair Display", serif;
@@ -43,11 +45,11 @@ h3 {
 }
 
 .profession-1 {
-  color: #39ff14;
+  color: var(--neon-green);
 }
 
 .profession-2 {
-  color: #ff008e;
+  color: var(--neon-pink);
 }
 
 .hero {
@@ -99,7 +101,7 @@ p {
 }
 
 .description {
-  text-decoration: underline #ff008e;
+  text-decoration: underline var(--neon-pink);
 }
 .about-paragraph {
   font-size: 20px;
@@ -121,12 +123,21 @@ p {
   font-family: var(--all-over-font);
   font-size: 20px;
   padding: 20px;
-  margin: 0px 140px;
+  margin: 40px 40px;
+  border: solid 1px var(--accent-color);
+  border-radius: 10px;
+  color: var(--neon-pink);
+  background-color: var(--background-color);
 }
 
 .languages-heading {
   font-size: 30px;
   padding: 10px 0px 20px 0px;
+  font-weight: bold;
+}
+
+.german {
+  color: var(--neon-green);
 }
 
 .project-heading {
@@ -158,8 +169,26 @@ p {
 }
 
 .launch {
-  color: #39ff14;
+  color: var(--neon-green);
   margin: 20px 0px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.contact-media {
+  display: flex;
+  flex-direction: column;
+  border: black solid 8px;
+  padding: 20px;
+}
+
+.contact-media a {
+  text-decoration: none;
+  color: var(--neon-green);
+}
+
+.social-media {
+  font-family: var(--all-over-font);
+  font-weight: bold;
+  color: var(--neon-pink);
 }
