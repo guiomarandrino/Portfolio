@@ -129,6 +129,13 @@ p {
   padding: 10px 0px 20px 0px;
 }
 
+.project-heading {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+
 .project {
   background-color: var(--background-color);
   padding: 30px;
