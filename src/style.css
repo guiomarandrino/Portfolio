@@ -55,6 +55,61 @@ h3 {
   font-family: var(--all-over-font);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  flex-direction: row;
+  padding: 30px 120px;
+  font-family: var(--all-over-font);
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+footer .contact-box .btn {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+  color: white;
+}
+
+footer .contact-box p {
+  padding: 5px;
+  margin: 0;
+}
+
+footer h4 {
+  font-family: var(--title-font);
+  font-size: 40px;
+}
+footer .email-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: var(--all-over-font);
+}
+footer .email-link:hover {
+  color: var(--neon-pink);
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color: var(--accent-color);
+  background-color: var(--background-color);
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
 .profession-1 {
   color: var(--neon-green);
 }
@@ -65,7 +120,7 @@ h3 {
 
 .hero {
   border: black solid 8px;
-  margin: 30px;
+  margin: 50px 30px 30px 30px;
 }
 
 p {
@@ -138,7 +193,6 @@ p {
   border: solid 1px var(--accent-color);
   border-radius: 10px;
   color: var(--neon-pink);
-  background-color: var(--background-color);
 }
 
 .languages-heading {
@@ -164,6 +218,11 @@ p {
   margin: 30px;
   border-radius: 10px;
   border: solid 1px var(--accent-color);
+}
+
+.fa-laptop-code {
+  font-size: 45px;
+  padding: 0px 10px;
 }
 
 .app-pic {
