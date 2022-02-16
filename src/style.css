@@ -206,6 +206,7 @@ p {
 
 .line {
   border-right: solid 3px var(--neon-pink);
+  text-align: right !important;
 }
 .education-container {
   padding: 0 15px;
