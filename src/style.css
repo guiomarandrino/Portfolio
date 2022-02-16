@@ -110,6 +110,10 @@ footer .social-links a:hover {
   background-color: var(--accent-color);
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .profession-1 {
   color: var(--neon-green);
 }
@@ -162,6 +166,13 @@ p {
   width: 450px;
 }
 
+.technologies-box {
+  margin: 60px 40px;
+  padding: 30px;
+  border: var(--accent-color) 1px solid;
+  border-radius: 10px;
+}
+
 .col-md-6 {
   padding: 0px 40px !important;
 }
@@ -182,6 +193,29 @@ p {
   margin: 70px 0px;
 }
 
+.education-history {
+  margin: 40px;
+}
+
+.education-history-title {
+  padding: 10px;
+  font-family: var(--title-font);
+  font-size: 40px;
+  color: black;
+}
+
+.line {
+  border-right: solid 3px var(--neon-pink);
+}
+.education-container {
+  padding: 0 15px;
+}
+
+.education-container h3 {
+  color: var(--neon-pink);
+  font-size: 30px;
+}
+
 .languages {
   display: flex;
   flex-direction: column;
@@ -192,13 +226,18 @@ p {
   margin: 40px 40px;
   border: solid 1px var(--accent-color);
   border-radius: 10px;
-  color: var(--neon-pink);
+  color: black;
 }
 
 .languages-heading {
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px 0px 20px 0px;
   font-weight: bold;
+  font-family: var(--title-font);
+}
+
+.progress-bar {
+  background-color: var(--neon-green) !important;
 }
 
 .german {
@@ -213,7 +252,6 @@ p {
 }
 
 .project {
-  background-color: var(--background-color);
   padding: 30px;
   margin: 30px;
   border-radius: 10px;
