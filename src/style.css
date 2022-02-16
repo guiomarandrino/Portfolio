@@ -210,6 +210,7 @@ p {
 }
 .education-container {
   padding: 0 15px;
+  text-align: justify;
 }
 
 .education-container h3 {
@@ -284,6 +285,9 @@ p {
   font-weight: bold;
 }
 
+.future-projects {
+  font-size: 20px;
+}
 .contact-media {
   display: flex;
   flex-direction: column;
