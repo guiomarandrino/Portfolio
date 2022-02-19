@@ -2,7 +2,7 @@
   --accent-color: #ff6f3c;
   --background-color: #fffdde;
   --neon-pink: #ff008e;
-  --neon-green: #39ff14;
+  --neon-green: #06ff00;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   --link-border: 2px solid;
   --title-font: "Playfair Display", serif;
@@ -115,7 +115,8 @@ footer a {
 }
 
 .profession-1 {
-  color: var(--neon-green);
+  color: black;
+  text-decoration: underline var(--neon-pink) solid;
 }
 
 .profession-2 {
@@ -271,18 +272,13 @@ p {
   justify-content: center;
 }
 
-.app-name {
+.app-name a {
   font-family: var(--all-over-font);
   font-size: 20px;
-  padding: 10px 0px;
+  padding: 20px 0px;
   font-weight: bold;
-}
-
-.launch {
-  color: var(--neon-green);
-  margin: 20px 0px;
   text-decoration: none;
-  font-weight: bold;
+  color: black;
 }
 
 .future-projects {
@@ -296,8 +292,8 @@ p {
 }
 
 .contact-media a {
-  text-decoration: none;
-  color: var(--neon-green);
+  text-decoration: underline var(--neon-pink) solid;
+  color: black;
 }
 
 .social-media {
