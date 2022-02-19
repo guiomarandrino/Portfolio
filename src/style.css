@@ -115,15 +115,12 @@ footer a {
 }
 
 .profession-1 {
-  color: white;
-  background-color: var(--neon-green);
-  padding: 3px 7px;
+  color: black;
+  text-decoration: solid underline var(--neon-pink);
 }
 
 .profession-2 {
-  color: white;
-  background-color: var(--neon-pink);
-  padding: 3px 7px;
+  color: var(--neon-pink);
 }
 
 .hero {
