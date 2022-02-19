@@ -115,12 +115,15 @@ footer a {
 }
 
 .profession-1 {
-  color: black;
-  text-decoration: underline var(--neon-pink) solid;
+  color: white;
+  background-color: var(--neon-green);
+  padding: 3px 7px;
 }
 
 .profession-2 {
-  color: var(--neon-pink);
+  color: white;
+  background-color: var(--neon-pink);
+  padding: 3px 7px;
 }
 
 .hero {
@@ -292,8 +295,10 @@ p {
 }
 
 .contact-media a {
-  text-decoration: underline var(--neon-pink) solid;
-  color: black;
+  background-color: var(--neon-green);
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
 }
 
 .social-media {
